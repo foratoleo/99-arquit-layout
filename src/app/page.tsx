@@ -1,6 +1,7 @@
 import Hero from '@/components/Hero';
 import Manifesto from '@/components/Manifesto';
 import TechnicalDifferentiator from '@/components/TechnicalDifferentiator';
+import Materiality from '@/components/Materiality';
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <Hero />
       <Manifesto />
       <TechnicalDifferentiator />
+      <Materiality />
 
       {/* Placeholder Portfolio Section */}
       <section id="portfolio" className="relative min-h-screen flex items-center justify-center bg-white px-6 py-32">
