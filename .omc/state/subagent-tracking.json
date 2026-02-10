@@ -95,11 +95,22 @@
       "agent_type": "gsd-executor",
       "started_at": "2026-02-10T15:28:02.601Z",
       "parent_mode": "none",
-      "status": "running"
+      "status": "completed",
+      "completed_at": "2026-02-10T15:34:54.147Z",
+      "duration_ms": 411546
+    },
+    {
+      "agent_id": "a974714",
+      "agent_type": "gsd-executor",
+      "started_at": "2026-02-10T15:35:21.400Z",
+      "parent_mode": "none",
+      "status": "completed",
+      "completed_at": "2026-02-10T15:44:14.096Z",
+      "duration_ms": 532696
     }
   ],
-  "total_spawned": 11,
-  "total_completed": 10,
+  "total_spawned": 12,
+  "total_completed": 12,
   "total_failed": 0,
-  "last_updated": "2026-02-10T15:28:02.702Z"
+  "last_updated": "2026-02-10T15:50:22.495Z"
 }

@@ -118,21 +118,21 @@
   },
   "hotPaths": [
     {
+      "path": ".planning/STATE.md",
+      "accessCount": 26,
+      "lastAccessed": 1770738359773,
+      "type": "file"
+    },
+    {
       "path": "src/lib/performance.ts",
       "accessCount": 13,
       "lastAccessed": 1770737467440,
       "type": "file"
     },
     {
-      "path": ".planning/STATE.md",
-      "accessCount": 12,
-      "lastAccessed": 1770737287409,
-      "type": "file"
-    },
-    {
       "path": "src/app/page.tsx",
-      "accessCount": 10,
-      "lastAccessed": 1770737295339,
+      "accessCount": 12,
+      "lastAccessed": 1770738326559,
       "type": "file"
     },
     {
@@ -142,16 +142,40 @@
       "type": "file"
     },
     {
+      "path": "",
+      "accessCount": 8,
+      "lastAccessed": 1770737891622,
+      "type": "directory"
+    },
+    {
+      "path": "next.config.ts",
+      "accessCount": 7,
+      "lastAccessed": 1770737934537,
+      "type": "file"
+    },
+    {
+      "path": "src/app/layout.tsx",
+      "accessCount": 7,
+      "lastAccessed": 1770738059557,
+      "type": "file"
+    },
+    {
       "path": "src/app/contact/actions.ts",
       "accessCount": 6,
       "lastAccessed": 1770737469430,
       "type": "file"
     },
     {
-      "path": "",
-      "accessCount": 5,
-      "lastAccessed": 1770737064111,
-      "type": "directory"
+      "path": "src/components/ContactForm.tsx",
+      "accessCount": 6,
+      "lastAccessed": 1770737737606,
+      "type": "file"
+    },
+    {
+      "path": "src/lib/content.ts",
+      "accessCount": 6,
+      "lastAccessed": 1770738306276,
+      "type": "file"
     },
     {
       "path": "src/app/globals.css",
@@ -160,39 +184,57 @@
       "type": "file"
     },
     {
-      "path": "next.config.ts",
+      "path": ".planning/phases/03-portfolio/03-01-SUMMARY.md",
       "accessCount": 5,
-      "lastAccessed": 1770737400783,
-      "type": "file"
-    },
-    {
-      "path": "src/components/ContactForm.tsx",
-      "accessCount": 5,
-      "lastAccessed": 1770737441107,
+      "lastAccessed": 1770737733683,
       "type": "file"
     },
     {
       "path": "src/components/Manifesto.tsx",
-      "accessCount": 4,
-      "lastAccessed": 1770737358393,
+      "accessCount": 5,
+      "lastAccessed": 1770737737590,
       "type": "file"
     },
     {
-      "path": "src/app/layout.tsx",
-      "accessCount": 4,
-      "lastAccessed": 1770737393138,
+      "path": "src/components/portfolio/FullscreenModal.tsx",
+      "accessCount": 5,
+      "lastAccessed": 1770737849004,
       "type": "file"
     },
     {
       "path": ".planning/PROJECT.md",
-      "accessCount": 3,
-      "lastAccessed": 1770737294588,
+      "accessCount": 4,
+      "lastAccessed": 1770737731019,
+      "type": "file"
+    },
+    {
+      "path": "src/components/portfolio/GalleryItem.tsx",
+      "accessCount": 4,
+      "lastAccessed": 1770737781106,
+      "type": "file"
+    },
+    {
+      "path": "src/app/portfolio/page.tsx",
+      "accessCount": 4,
+      "lastAccessed": 1770737820499,
       "type": "file"
     },
     {
       "path": "src/components/TechnicalDifferentiator.tsx",
-      "accessCount": 3,
-      "lastAccessed": 1770737311151,
+      "accessCount": 4,
+      "lastAccessed": 1770737960324,
+      "type": "file"
+    },
+    {
+      "path": "src/components/Hero.tsx",
+      "accessCount": 4,
+      "lastAccessed": 1770738054747,
+      "type": "file"
+    },
+    {
+      "path": ".planning/ROADMAP.md",
+      "accessCount": 4,
+      "lastAccessed": 1770738372289,
       "type": "file"
     },
     {
@@ -202,9 +244,21 @@
       "type": "file"
     },
     {
-      "path": "src/app/portfolio/page.tsx",
+      "path": ".planning/phases/04-conversion-launch/04-01-SUMMARY.md",
       "accessCount": 3,
-      "lastAccessed": 1770737454958,
+      "lastAccessed": 1770737583435,
+      "type": "file"
+    },
+    {
+      "path": "src/components/portfolio/GalleryGrid.tsx",
+      "accessCount": 3,
+      "lastAccessed": 1770737785455,
+      "type": "file"
+    },
+    {
+      "path": "src/app/robots.ts",
+      "accessCount": 3,
+      "lastAccessed": 1770737917754,
       "type": "file"
     },
     {
@@ -226,15 +280,57 @@
       "type": "directory"
     },
     {
-      "path": "src/components/portfolio/GalleryItem.tsx",
+      "path": "src/components",
       "accessCount": 2,
-      "lastAccessed": 1770737362190,
+      "lastAccessed": 1770737568063,
+      "type": "directory"
+    },
+    {
+      "path": ".planning/phases/03-portfolio/03-02-PLAN.md",
+      "accessCount": 2,
+      "lastAccessed": 1770737725671,
       "type": "file"
     },
     {
-      "path": "src/components/Hero.tsx",
+      "path": ".planning/phases/04-conversion-launch/04-03-PLAN.md",
       "accessCount": 2,
-      "lastAccessed": 1770737531012,
+      "lastAccessed": 1770737725743,
+      "type": "file"
+    },
+    {
+      "path": ".planning/phases/04-conversion-launch/04-CONTEXT.md",
+      "accessCount": 2,
+      "lastAccessed": 1770737731038,
+      "type": "file"
+    },
+    {
+      "path": ".planning/phases/03-portfolio/03-CONTEXT.md",
+      "accessCount": 2,
+      "lastAccessed": 1770737733672,
+      "type": "file"
+    },
+    {
+      "path": "src/components/SocialProof.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1770737737553,
+      "type": "file"
+    },
+    {
+      "path": "src/lib/portfolio-data.ts",
+      "accessCount": 2,
+      "lastAccessed": 1770737737774,
+      "type": "file"
+    },
+    {
+      "path": "src/hooks/useSwipeGesture.ts",
+      "accessCount": 2,
+      "lastAccessed": 1770737762675,
+      "type": "file"
+    },
+    {
+      "path": "src/app/sitemap.ts",
+      "accessCount": 2,
+      "lastAccessed": 1770737917938,
       "type": "file"
     },
     {
@@ -262,12 +358,6 @@
       "type": "file"
     },
     {
-      "path": ".planning/ROADMAP.md",
-      "accessCount": 1,
-      "lastAccessed": 1770737242752,
-      "type": "file"
-    },
-    {
       "path": "src/components/Header.tsx",
       "accessCount": 1,
       "lastAccessed": 1770737247016,
@@ -277,18 +367,6 @@
       "path": ".planning/phases/03-portfolio/03-01-PLAN.md",
       "accessCount": 1,
       "lastAccessed": 1770737258490,
-      "type": "file"
-    },
-    {
-      "path": ".planning/phases/03-portfolio/03-02-PLAN.md",
-      "accessCount": 1,
-      "lastAccessed": 1770737258493,
-      "type": "file"
-    },
-    {
-      "path": ".planning/phases/04-conversion-launch/04-03-PLAN.md",
-      "accessCount": 1,
-      "lastAccessed": 1770737264611,
       "type": "file"
     },
     {
@@ -304,27 +382,9 @@
       "type": "file"
     },
     {
-      "path": ".planning/phases/03-portfolio/03-CONTEXT.md",
-      "accessCount": 1,
-      "lastAccessed": 1770737291270,
-      "type": "file"
-    },
-    {
-      "path": ".planning/phases/04-conversion-launch/04-CONTEXT.md",
-      "accessCount": 1,
-      "lastAccessed": 1770737294579,
-      "type": "file"
-    },
-    {
       "path": "package.json",
       "accessCount": 1,
       "lastAccessed": 1770737299088,
-      "type": "file"
-    },
-    {
-      "path": "src/lib/portfolio-data.ts",
-      "accessCount": 1,
-      "lastAccessed": 1770737325539,
       "type": "file"
     },
     {
@@ -334,21 +394,27 @@
       "type": "file"
     },
     {
-      "path": "src/components/portfolio/GalleryGrid.tsx",
+      "path": ".planning/phases/04-conversion-launch/04-02-SUMMARY.md",
       "accessCount": 1,
-      "lastAccessed": 1770737363194,
+      "lastAccessed": 1770737628034,
       "type": "file"
     },
     {
-      "path": "src/components/SocialProof.tsx",
+      "path": "vercel.json",
       "accessCount": 1,
-      "lastAccessed": 1770737372208,
+      "lastAccessed": 1770737755401,
       "type": "file"
     },
     {
-      "path": "src/components/portfolio/FullscreenModal.tsx",
+      "path": ".planning/phases/03-portfolio/03-02-SUMMARY.md",
       "accessCount": 1,
-      "lastAccessed": 1770737373579,
+      "lastAccessed": 1770737955640,
+      "type": "file"
+    },
+    {
+      "path": "public/images/README.md",
+      "accessCount": 1,
+      "lastAccessed": 1770738074422,
       "type": "file"
     }
   ],
