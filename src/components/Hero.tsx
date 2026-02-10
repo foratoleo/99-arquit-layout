@@ -39,7 +39,7 @@ export default function Hero() {
       {/* Fullscreen background image */}
       <div className="absolute inset-0">
         <Image
-          src="/hero-bg.jpg"
+          src="/images/hero-bg.jpg"
           alt="Arquitetura de alto padrao"
           fill
           priority

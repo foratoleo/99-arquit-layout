@@ -137,8 +137,8 @@
     },
     {
       "path": "src/components/Materiality.tsx",
-      "accessCount": 7,
-      "lastAccessed": 1770737445970,
+      "accessCount": 8,
+      "lastAccessed": 1770737535962,
       "type": "file"
     },
     {
@@ -232,6 +232,12 @@
       "type": "file"
     },
     {
+      "path": "src/components/Hero.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1770737531012,
+      "type": "file"
+    },
+    {
       "path": ".planning/phases/02-core-sections/02-06-PLAN.md",
       "accessCount": 1,
       "lastAccessed": 1770737038059,
@@ -265,12 +271,6 @@
       "path": "src/components/Header.tsx",
       "accessCount": 1,
       "lastAccessed": 1770737247016,
-      "type": "file"
-    },
-    {
-      "path": "src/components/Hero.tsx",
-      "accessCount": 1,
-      "lastAccessed": 1770737251790,
       "type": "file"
     },
     {

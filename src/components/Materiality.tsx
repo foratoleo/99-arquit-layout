@@ -9,19 +9,19 @@ export default function Materiality() {
       id: 1,
       title: 'Marcenaria Artesanal',
       description: 'Cada junta e precisa. Cada encaixe, perfeito. A madeira conta historias atraves do trabalho manual que transforma materia em arte.',
-      image: '/materiality-1.jpg',
+      image: '/images/materiality-1.jpg',
     },
     {
       id: 2,
       title: 'Pedra Natural',
       description: 'A pedra bruta da lugar a superficies que convidam ao toque. Veios que desenham paisagens, texturas que guardam a memoria da terra.',
-      image: '/materiality-2.jpg',
+      image: '/images/materiality-2.jpg',
     },
     {
       id: 3,
       title: 'Detalhe que Diferencia',
       description: 'Na sutileza do acabamento esta a excelencia. O que parece simples e o resultado de decadas de dominio tecnico e sensibilidade estetica.',
-      image: '/materiality-3.jpg',
+      image: '/images/materiality-3.jpg',
     },
   ];
 
