@@ -1,5 +1,4 @@
 import SectionWrapper from './SectionWrapper';
-import Image from 'next/image';
 
 export default function TechnicalDifferentiator() {
   return (
