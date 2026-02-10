@@ -36,7 +36,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 **Plans**: 1 plan in 1 wave
 
 Plans:
-- [ ] 01-01: Design token system with colors, typography, and spacing integrated with Tailwind CSS
+- [ ] 01-01-PLAN.md — Design token system with colors, typography, and spacing integrated with Tailwind CSS
 
 ### Phase 2: Core Sections
 
@@ -52,11 +52,15 @@ Plans:
   3. Technical differentiator section highlights vertical construction expertise
   4. Materiality section showcases joinery and stonework (with placeholder for macro photography)
 
-**Plans**: TBD
+**Plans**: 6 plans in 3 waves
 
 Plans:
-- [ ] 02-01: TBD
-- [ ] 02-02: TBD
+- [ ] 02-01-PLAN.md — Initialize Next.js 15 project with GSAP, Tailwind CSS, and TypeScript
+- [ ] 02-02-PLAN.md — Hero section with fullscreen layout, LCP optimization, and subtle GSAP fade-in animation
+- [ ] 02-03-PLAN.md — Sticky header with section navigation and smooth scroll functionality
+- [ ] 02-04-PLAN.md — Manifesto section with poetic philosophy content and typographic focus
+- [ ] 02-05-PLAN.md — Technical differentiator section with split layout and problem-solution format
+- [ ] 02-06-PLAN.md — Materiality section showcasing joinery and stonework with placeholder macro photography
 
 ### Phase 3: Portfolio
 
@@ -109,6 +113,6 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Design Foundation | 0/1 | Ready to execute | - |
-| 2. Core Sections | 0/0 | Not started | - |
+| 2. Core Sections | 0/6 | Ready to execute | - |
 | 3. Portfolio | 0/2 | Ready to execute | - |
 | 4. Conversion & Launch | 0/3 | Ready to execute | - |
