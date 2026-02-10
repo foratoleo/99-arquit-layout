@@ -1,0 +1,34 @@
+{
+  "user": {
+    "name": "Desenvolvedor",
+    "language": "pt-BR",
+    "timezone": "America/Sao_Paulo"
+  },
+  "tts": {
+    "enabled": false,
+    "voice": "2EiwWnXFnvU5JabPnv8n",
+    "language": "pt-BR"
+  },
+  "notifications": {
+    "task_completion": false,
+    "plan_completion": false,
+    "error_alerts": false
+  },
+  "preferences": {
+    "output_style": "markdown",
+    "verbosity": "normal",
+    "custom_statusline": true,
+    "auto_backup": false,
+    "log_hooks": true
+  },
+  "git": {
+    "git_email": "your-email@example.com",
+    "language": "pt-BR"
+  },
+  "jira": {
+    "jira_base_url": "https://your-domain.atlassian.net",
+    "jira_project_key": "PROJ",
+    "jira_email": "your-email@example.com",
+    "language": "pt-BR"
+  }
+}

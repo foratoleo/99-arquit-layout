@@ -1,0 +1,356 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1770737020606,
+  "projectRoot": "/Users/forato/PROJECTS/99-lp-minimalista-gsd",
+  "techStack": {
+    "languages": [
+      {
+        "name": "JavaScript/TypeScript",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "package.json"
+        ]
+      },
+      {
+        "name": "TypeScript",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "tsconfig.json"
+        ]
+      }
+    ],
+    "frameworks": [
+      {
+        "name": "next",
+        "version": "15.1.0",
+        "category": "fullstack"
+      },
+      {
+        "name": "react",
+        "version": "19.0.0",
+        "category": "frontend"
+      },
+      {
+        "name": "react-dom",
+        "version": "19.0.0",
+        "category": "frontend"
+      }
+    ],
+    "packageManager": "npm",
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": "npm run build",
+    "testCommand": null,
+    "lintCommand": "npm run lint",
+    "devCommand": "npm run dev",
+    "scripts": {
+      "dev": "next dev",
+      "build": "next build",
+      "start": "next start",
+      "lint": "next lint"
+    }
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": "type-based"
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [
+      "public",
+      "src"
+    ],
+    "gitBranches": null
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "public": {
+      "path": "public",
+      "purpose": "Public files",
+      "fileCount": 1,
+      "lastAccessed": 1770737020571,
+      "keyFiles": [
+        "hero-bg.jpg"
+      ]
+    },
+    "src": {
+      "path": "src",
+      "purpose": "Source code",
+      "fileCount": 0,
+      "lastAccessed": 1770737020572,
+      "keyFiles": []
+    },
+    "src/app": {
+      "path": "src/app",
+      "purpose": "Application code",
+      "fileCount": 3,
+      "lastAccessed": 1770737020580,
+      "keyFiles": [
+        "globals.css",
+        "layout.tsx",
+        "page.tsx"
+      ]
+    },
+    "src/components": {
+      "path": "src/components",
+      "purpose": "UI components",
+      "fileCount": 4,
+      "lastAccessed": 1770737020581,
+      "keyFiles": [
+        "Header.tsx",
+        "Hero.tsx",
+        "Manifesto.tsx"
+      ]
+    },
+    "src/lib": {
+      "path": "src/lib",
+      "purpose": "Library code",
+      "fileCount": 0,
+      "lastAccessed": 1770737020581,
+      "keyFiles": []
+    }
+  },
+  "hotPaths": [
+    {
+      "path": "src/lib/performance.ts",
+      "accessCount": 13,
+      "lastAccessed": 1770737467440,
+      "type": "file"
+    },
+    {
+      "path": ".planning/STATE.md",
+      "accessCount": 12,
+      "lastAccessed": 1770737287409,
+      "type": "file"
+    },
+    {
+      "path": "src/app/page.tsx",
+      "accessCount": 10,
+      "lastAccessed": 1770737295339,
+      "type": "file"
+    },
+    {
+      "path": "src/components/Materiality.tsx",
+      "accessCount": 7,
+      "lastAccessed": 1770737445970,
+      "type": "file"
+    },
+    {
+      "path": "src/app/contact/actions.ts",
+      "accessCount": 6,
+      "lastAccessed": 1770737469430,
+      "type": "file"
+    },
+    {
+      "path": "",
+      "accessCount": 5,
+      "lastAccessed": 1770737064111,
+      "type": "directory"
+    },
+    {
+      "path": "src/app/globals.css",
+      "accessCount": 5,
+      "lastAccessed": 1770737384466,
+      "type": "file"
+    },
+    {
+      "path": "next.config.ts",
+      "accessCount": 5,
+      "lastAccessed": 1770737400783,
+      "type": "file"
+    },
+    {
+      "path": "src/components/ContactForm.tsx",
+      "accessCount": 5,
+      "lastAccessed": 1770737441107,
+      "type": "file"
+    },
+    {
+      "path": "src/components/Manifesto.tsx",
+      "accessCount": 4,
+      "lastAccessed": 1770737358393,
+      "type": "file"
+    },
+    {
+      "path": "src/app/layout.tsx",
+      "accessCount": 4,
+      "lastAccessed": 1770737393138,
+      "type": "file"
+    },
+    {
+      "path": ".planning/PROJECT.md",
+      "accessCount": 3,
+      "lastAccessed": 1770737294588,
+      "type": "file"
+    },
+    {
+      "path": "src/components/TechnicalDifferentiator.tsx",
+      "accessCount": 3,
+      "lastAccessed": 1770737311151,
+      "type": "file"
+    },
+    {
+      "path": "tailwind.config.ts",
+      "accessCount": 3,
+      "lastAccessed": 1770737384468,
+      "type": "file"
+    },
+    {
+      "path": "src/app/portfolio/page.tsx",
+      "accessCount": 3,
+      "lastAccessed": 1770737454958,
+      "type": "file"
+    },
+    {
+      "path": ".planning/phases/02-core-sections/02-06-SUMMARY.md",
+      "accessCount": 2,
+      "lastAccessed": 1770737228984,
+      "type": "file"
+    },
+    {
+      "path": ".planning/phases/04-conversion-launch/04-02-PLAN.md",
+      "accessCount": 2,
+      "lastAccessed": 1770737288845,
+      "type": "file"
+    },
+    {
+      "path": "src",
+      "accessCount": 2,
+      "lastAccessed": 1770737358731,
+      "type": "directory"
+    },
+    {
+      "path": "src/components/portfolio/GalleryItem.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1770737362190,
+      "type": "file"
+    },
+    {
+      "path": ".planning/phases/02-core-sections/02-06-PLAN.md",
+      "accessCount": 1,
+      "lastAccessed": 1770737038059,
+      "type": "file"
+    },
+    {
+      "path": ".planning/phases/02-core-sections/02-05-PLAN.md",
+      "accessCount": 1,
+      "lastAccessed": 1770737045627,
+      "type": "file"
+    },
+    {
+      "path": ".planning/phases/02-core-sections/02-CONTEXT.md",
+      "accessCount": 1,
+      "lastAccessed": 1770737046616,
+      "type": "file"
+    },
+    {
+      "path": ".planning/phases/02-core-sections/02-05-SUMMARY.md",
+      "accessCount": 1,
+      "lastAccessed": 1770737129856,
+      "type": "file"
+    },
+    {
+      "path": ".planning/ROADMAP.md",
+      "accessCount": 1,
+      "lastAccessed": 1770737242752,
+      "type": "file"
+    },
+    {
+      "path": "src/components/Header.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1770737247016,
+      "type": "file"
+    },
+    {
+      "path": "src/components/Hero.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1770737251790,
+      "type": "file"
+    },
+    {
+      "path": ".planning/phases/03-portfolio/03-01-PLAN.md",
+      "accessCount": 1,
+      "lastAccessed": 1770737258490,
+      "type": "file"
+    },
+    {
+      "path": ".planning/phases/03-portfolio/03-02-PLAN.md",
+      "accessCount": 1,
+      "lastAccessed": 1770737258493,
+      "type": "file"
+    },
+    {
+      "path": ".planning/phases/04-conversion-launch/04-03-PLAN.md",
+      "accessCount": 1,
+      "lastAccessed": 1770737264611,
+      "type": "file"
+    },
+    {
+      "path": ".planning/phases/04-conversion-launch/04-01-PLAN.md",
+      "accessCount": 1,
+      "lastAccessed": 1770737264622,
+      "type": "file"
+    },
+    {
+      "path": ".planning/config.json",
+      "accessCount": 1,
+      "lastAccessed": 1770737287422,
+      "type": "file"
+    },
+    {
+      "path": ".planning/phases/03-portfolio/03-CONTEXT.md",
+      "accessCount": 1,
+      "lastAccessed": 1770737291270,
+      "type": "file"
+    },
+    {
+      "path": ".planning/phases/04-conversion-launch/04-CONTEXT.md",
+      "accessCount": 1,
+      "lastAccessed": 1770737294579,
+      "type": "file"
+    },
+    {
+      "path": "package.json",
+      "accessCount": 1,
+      "lastAccessed": 1770737299088,
+      "type": "file"
+    },
+    {
+      "path": "src/lib/portfolio-data.ts",
+      "accessCount": 1,
+      "lastAccessed": 1770737325539,
+      "type": "file"
+    },
+    {
+      "path": "src/components/WhatsAppButton.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1770737337016,
+      "type": "file"
+    },
+    {
+      "path": "src/components/portfolio/GalleryGrid.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1770737363194,
+      "type": "file"
+    },
+    {
+      "path": "src/components/SocialProof.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1770737372208,
+      "type": "file"
+    },
+    {
+      "path": "src/components/portfolio/FullscreenModal.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1770737373579,
+      "type": "file"
+    }
+  ],
+  "userDirectives": []
+}

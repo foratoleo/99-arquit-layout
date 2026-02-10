@@ -12,14 +12,8 @@ const nextConfig: NextConfig = {
     // Image sizes for srcset generation
     imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
 
-    // Quality setting - balance between visual quality and file size
-    quality: 85,
-
     // Minimum cache TTL for optimized images (in seconds)
     minimumCacheTTL: 60,
-
-    // Use sharp for faster image processing (Next.js default)
-    // No need to specify - Next.js uses sharp by default when available
   },
 
   // PPR disabled - requires canary version

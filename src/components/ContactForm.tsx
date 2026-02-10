@@ -78,7 +78,7 @@ export default function ContactForm() {
           name="name"
           required
           minLength={2}
-          aria-invalid={state.errors?.name ? 'true' : 'undefined'}
+          aria-invalid={!!state.errors?.name}
           aria-describedby={state.errors?.name ? 'name-error' : undefined}
           className="w-full px-4 py-3 bg-white border border-greige-300 text-black-400 placeholder:text-greige-400 focus:outline-none focus:border-black-400 transition-colors"
           placeholder="Seu nome"
@@ -103,7 +103,7 @@ export default function ContactForm() {
           id="email"
           name="email"
           required
-          aria-invalid={state.errors?.email ? 'true' : 'undefined'}
+          aria-invalid={!!state.errors?.email}
           aria-describedby={state.errors?.email ? 'email-error' : undefined}
           className="w-full px-4 py-3 bg-white border border-greige-300 text-black-400 placeholder:text-greige-400 focus:outline-none focus:border-black-400 transition-colors"
           placeholder="seu@email.com"
@@ -129,7 +129,7 @@ export default function ContactForm() {
           required
           minLength={10}
           rows={4}
-          aria-invalid={state.errors?.message ? 'true' : 'undefined'}
+          aria-invalid={!!state.errors?.message}
           aria-describedby={state.errors?.message ? 'message-error' : undefined}
           className="w-full px-4 py-3 bg-white border border-greige-300 text-black-400 placeholder:text-greige-400 focus:outline-none focus:border-black-400 transition-colors resize-none"
           placeholder="Conte-nos sobre seu projeto..."

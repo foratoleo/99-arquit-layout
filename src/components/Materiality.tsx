@@ -44,7 +44,7 @@ export default function Materiality() {
 
         {/* Material showcase grid */}
         <div className="grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-3">
-          {materials.map((material, index) => (
+          {materials.map((material) => (
             <div
               key={material.id}
               className="group flex flex-col overflow-hidden bg-white"
