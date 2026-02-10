@@ -49,27 +49,17 @@ export default function Materiality() {
               key={material.id}
               className="group flex flex-col overflow-hidden bg-white"
             >
-              {/* Image placeholder */}
+              {/* Image with explicit aspect ratio to prevent CLS */}
               <div className="relative aspect-[4/5] overflow-hidden bg-sand-100">
                 <Image
                   src={material.image}
                   alt={material.title}
                   fill
-                  className="object-cover transition-transform duration-700 group-hover:scale-105"
                   sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
                   quality={85}
+                  className="object-cover transition-transform duration-700 group-hover:scale-105"
+                  style={{ objectFit: 'cover' }}
                 />
-                {/* Placeholder overlay when image doesn't exist */}
-                <div className="absolute inset-0 flex items-center justify-center bg-greige-100">
-                  <div className="text-center">
-                    <p className="font-serif text-xl text-greige-400">
-                      Macro Fotografia
-                    </p>
-                    <p className="mt-2 font-serif text-sm text-greige-500">
-                      {material.title}
-                    </p>
-                  </div>
-                </div>
               </div>
 
               {/* Content */}
