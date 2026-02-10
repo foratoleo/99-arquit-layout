@@ -72,11 +72,11 @@ Plans:
   3. Images lazy load without causing CLS violations
   4. Images auto-optimize to WebP/AVIF formats
 
-**Plans**: TBD
+**Plans**: 2 plans in 2 waves
 
 Plans:
-- [ ] 03-01: TBD
-- [ ] 03-02: TBD
+- [ ] 03-01-PLAN.md — Portfolio page with modular grid layout, hover effects, and fullscreen modal
+- [ ] 03-02-PLAN.md — CLS-safe lazy loading strategy and mobile swipe gesture navigation
 
 ### Phase 4: Conversion & Launch
 
@@ -110,5 +110,5 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4
 |-------|----------------|--------|-----------|
 | 1. Design Foundation | 0/1 | Ready to execute | - |
 | 2. Core Sections | 0/0 | Not started | - |
-| 3. Portfolio | 0/0 | Not started | - |
+| 3. Portfolio | 0/2 | Ready to execute | - |
 | 4. Conversion & Launch | 0/0 | Not started | - |
