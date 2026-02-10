@@ -48,6 +48,7 @@ export default function PortfolioPage() {
         isOpen={isModalOpen}
         onClose={handleCloseModal}
         project={selectedProject}
+        allProjects={projects}
       />
     </>
   );
