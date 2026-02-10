@@ -39,8 +39,8 @@ export default function Hero() {
       {/* Fullscreen background image */}
       <div className="absolute inset-0">
         <Image
-          src="/images/hero-bg.jpg"
-          alt="Arquitetura de alto padrao"
+          src="/images/hero/hero-bg.jpg"
+          alt="Arquitetura de alto padrao - RE Arquitetura & Design"
           fill
           priority
           className="object-cover"

@@ -55,7 +55,7 @@ export const metadata: Metadata = {
     type: 'website',
     images: [
       {
-        url: '/images/hero-bg.jpg',
+        url: '/images/hero/hero-bg.jpg',
         width: 1920,
         height: 1080,
         alt: 'RE Arquitetura & Design - Arquitetura de Alto Padrao',
