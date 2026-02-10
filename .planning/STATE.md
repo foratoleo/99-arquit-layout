@@ -5,22 +5,22 @@
 See: .planning/PROJECT.md (updated 2025-02-10)
 
 **Core value:** WhatsApp conversations with qualified high-end leads
-**Current focus:** Phase 3 - Portfolio
+**Current focus:** Phase 4 - Conversion & Launch
 
 ## Current Position
 
-Phase: 3 of 4 (Portfolio)
-Plan: 2 of 2 in current phase
-Status: Phase complete
-Last activity: 2026-02-10 — Completed 03-02 Lazy Loading & Swipe Gestures
+Phase: 4 of 4 (Conversion & Launch)
+Plan: 3 of 3 in current phase
+Status: In progress
+Last activity: 2026-02-10 — Completed 04-03 Deployment, SEO, and Final Content
 
-Progress: [████████░░] 56% (9/16 plans complete)
+Progress: [██████████] 56% (9/16 plans complete)
 
 ## Performance Metrics
 
 **Velocity:**
 - Total plans completed: 9
-- Average duration: 3.3 min
+- Average duration: 3.2 min
 - Total execution time: 0.5 hours
 
 **By Phase:**
@@ -30,10 +30,11 @@ Progress: [████████░░] 56% (9/16 plans complete)
 | 1. Design Foundation | 1 | 1 | 4 min |
 | 2. Core Sections | 4 | 6 | 2.5 min |
 | 3. Portfolio | 2 | 2 | 3.5 min |
-| 4. Conversion & Launch | 2 | 3 | 3 min |
+| 4. Conversion & Launch | 3 | 3 | 3 min |
 
 **Recent Trend:**
-- Last 5 plans: 02-06 (1 min), 04-01 (4 min), 04-02 (5 min), 03-01 (4 min), 03-02 (3 min)
+- Last 5 plans: 03-01 (4 min), 03-02 (3 min), 04-01 (4 min), 04-02 (5 min), 04-03 (7 min)
+- Trend: Consistent execution, 04-03 included deployment documentation
 
 *Updated after each plan completion*
 
@@ -103,22 +104,57 @@ Recent decisions affecting current work:
 - Performance monitoring utilities with PerformanceObserver API
 - All images use next/image with explicit dimensions or aspect-ratio parents
 
+**Deployment & SEO (Phase 4 - Plan 03):**
+- Vercel deployment configuration with security headers (X-Frame-Options, HSTS, CSP)
+- Next.js Metadata API for comprehensive SEO (Open Graph, Twitter Cards)
+- JSON-LD structured data for ArchitectureFirm schema
+- Dynamic sitemap and robots.txt generation
+- Centralized content.ts for easy copy updates
+- Professional PT-BR content throughout (placeholder for client customization)
+- Organized image structure with delivery documentation
+- Deployment guide for client execution
+
 ### Pending Todos
 
-None yet.
+**Client Actions Required:**
+1. Review and finalize content in src/lib/content.ts
+2. Provide project photography (24 images: 8 projects × 3-4 images each)
+3. Provide materiality photography (3 macro shots: joinery, stone, craftsmanship)
+4. Compress hero-bg.jpg to <200KB (currently 465KB)
+5. Execute deployment using 04-03-DEPLOYMENT-GUIDE.md
+6. Configure custom domain DNS records
+7. Update JSON-LD with actual business address and CAU number
+8. Set up Google Search Console verification
 
 ### Blockers/Concerns
 
-- PPR requires Next.js canary version (not stable) - may enable later for LCP optimization
-- Tailwind 4.x @theme syntax is newer than Phase 1 token pattern - documentation may lag
-- WhatsApp number is placeholder (5511999999999) - update before production deployment
-- hero-bg.jpg is 465KB (should be < 200KB) - needs compression before production
+**Before Production Launch:**
+- hero-bg.jpg is 465KB (should be <200KB) - needs compression
 - Materiality placeholder images are 0-byte files - need actual photography
+- WhatsApp number is placeholder (5511999999999) - update before production
+- JSON-LD address is "UPDATE: Street Address" - requires actual address
+- CAU-SP number is placeholder (123456) - requires actual registration
+
+**Technical Debt:**
+- PPR requires Next.js canary version (not stable) - may enable later for LCP optimization
 - Actual Lighthouse scores require production URL testing
 - Pinch-to-zoom enhancement deferred (not in 03-02 scope but mentioned in context)
 
+**Content Delivery:**
+- All portfolio images use external Unsplash URLs (works but not optimal for production)
+- Contact form only logs to console - no email sending (Resend/SendGrid TODO)
+
 ## Session Continuity
 
-Last session: 2026-02-10T15:39:01Z
-Stopped at: Completed Phase 3 Plan 02 - Lazy Loading & Swipe Gestures
+Last session: 2026-02-10T15:42:41Z
+Stopped at: Completed Phase 4 Plan 03 - Deployment, SEO, and Final Content
 Resume file: None
+
+## Decisions Log
+
+**Plan 04-03 Decisions:**
+1. **Security Headers:** Implemented X-Frame-Options, HSTS, Referrer-Policy for production-ready security
+2. **SEO Metadata:** Full Metadata API with Open Graph, Twitter Cards, JSON-LD ArchitectureFirm schema
+3. **Content Architecture:** Centralized content.ts for easy updates without code changes
+4. **Image Documentation:** Comprehensive delivery guide to prevent back-and-forth with client
+5. **Deployment Approach:** Created guide instead of automated deployment (requires client authentication and DNS access)
