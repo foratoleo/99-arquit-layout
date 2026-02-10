@@ -19,13 +19,6 @@ interface FormState {
   message?: string;
 }
 
-interface FormData {
-  name: string;
-  email: string;
-  message: string;
-  website?: string;
-}
-
 export async function submitContactForm(
   prevState: FormState,
   formData: FormData

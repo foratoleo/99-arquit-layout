@@ -85,9 +85,9 @@ export function checkCoreWebVitals(): Promise<PerformanceMetrics> {
     try {
       const lcpObserver = new PerformanceObserver((list) => {
         const entries = list.getEntries();
-        const lastEntry = entries[entries.length - 1] as any;
+        const lastEntry = entries[entries.length - 1] as PerformanceEntry & { renderTime?: number; loadTime?: number };
         if (lastEntry) {
-          metrics.lcp = lastEntry.renderTime || lastEntry.loadTime;
+          metrics.lcp = lastEntry.renderTime || lastEntry.loadTime || 0;
           lcpResolved = true;
           checkAllResolved();
         }
@@ -100,14 +100,14 @@ export function checkCoreWebVitals(): Promise<PerformanceMetrics> {
         if (!lcpResolved) {
           const entries = performance.getEntriesByType('largest-contentful-paint');
           if (entries.length > 0) {
-            const lastEntry = entries[entries.length - 1] as any;
+            const lastEntry = entries[entries.length - 1] as PerformanceEntry & { renderTime?: number; loadTime?: number };
             metrics.lcp = lastEntry?.renderTime || lastEntry?.loadTime || 0;
           }
           lcpResolved = true;
           checkAllResolved();
         }
       }, 5000);
-    } catch (e) {
+    } catch {
       lcpResolved = true;
       checkAllResolved();
     }
@@ -118,8 +118,9 @@ export function checkCoreWebVitals(): Promise<PerformanceMetrics> {
 
       const clsObserver = new PerformanceObserver((list) => {
         for (const entry of list.getEntries()) {
-          if (!(entry as any).hadRecentInput) {
-            clsValue += (entry as any).value;
+          const layoutShiftEntry = entry as unknown as { hadRecentInput: boolean; value: number };
+          if (!layoutShiftEntry.hadRecentInput) {
+            clsValue += layoutShiftEntry.value;
           }
         }
         metrics.cls = clsValue;
@@ -134,7 +135,7 @@ export function checkCoreWebVitals(): Promise<PerformanceMetrics> {
           checkAllResolved();
         }, 3000);
       });
-    } catch (e) {
+    } catch {
       clsResolved = true;
       checkAllResolved();
     }
@@ -143,14 +144,15 @@ export function checkCoreWebVitals(): Promise<PerformanceMetrics> {
     try {
       const fidObserver = new PerformanceObserver((list) => {
         for (const entry of list.getEntries()) {
-          metrics.fid = (entry as any).processingStart - entry.startTime;
+          const performanceEntry = entry as unknown as { processingStart: number; startTime: number };
+          metrics.fid = performanceEntry.processingStart - performanceEntry.startTime;
           fidResolved = true;
           checkAllResolved();
         }
       });
 
       fidObserver.observe({ entryTypes: ['first-input'] });
-    } catch (e) {
+    } catch {
       // FID not supported in some browsers
       fidResolved = true;
     }
@@ -259,8 +261,8 @@ export function auditFonts(): {
   recommendations: string[];
 } {
   const recommendations: string[] = [];
-  let hasFout = false;
-  let hasFoit = false;
+  const hasFout = false;
+  const hasFoit = false;
 
   if (typeof window === 'undefined') {
     return { hasFout, hasFoit, recommendations };
@@ -271,10 +273,6 @@ export function auditFonts(): {
   if (preloads.length === 0) {
     recommendations.push('Consider preloading critical fonts for faster rendering');
   }
-
-  // Check font-display property
-  const styles = getComputedStyle(document.body);
-  // This is simplified - real detection would require more sophisticated timing
 
   return {
     hasFout,
