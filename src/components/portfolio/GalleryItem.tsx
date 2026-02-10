@@ -6,9 +6,10 @@ import { Project } from '@/lib/portfolio-data';
 interface GalleryItemProps {
   project: Project;
   onClick: () => void;
+  priority?: boolean;
 }
 
-export default function GalleryItem({ project, onClick }: GalleryItemProps) {
+export default function GalleryItem({ project, onClick, priority = false }: GalleryItemProps) {
   const mainImage = project.images[0];
 
   return (
@@ -24,6 +25,8 @@ export default function GalleryItem({ project, onClick }: GalleryItemProps) {
         height={mainImage.height}
         sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 800px"
         quality={85}
+        priority={priority}
+        loading={priority ? 'eager' : 'lazy'}
         placeholder="blur"
         blurDataURL="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxyZWN0IHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9IiNFNUU0RDEiLz48L3N2Zz4="
         className="h-full w-full object-cover transition-all duration-300 group-hover:scale-105 group-hover:opacity-100"
