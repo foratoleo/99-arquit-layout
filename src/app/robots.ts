@@ -1,4 +1,4 @@
-import { MetadataRoute } from 'next';
+import type { MetadataRoute } from 'next';
 
 /**
  * Robots.txt configuration
@@ -11,13 +11,11 @@ const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://re-arquitetura.com
 
 export default function robots(): MetadataRoute.Robots {
   return {
-    rules: [
-      {
-        userAgent: '*',
-        allow: '/',
-        disallow: ['/api/', '/_next/', '/private/'],
-      },
-    ],
+    rules: {
+      userAgent: '*',
+      allow: '/',
+      disallow: ['/api/', '/_next/', '/private/'],
+    },
     sitemap: `${SITE_URL}/sitemap.xml`,
   };
 }
