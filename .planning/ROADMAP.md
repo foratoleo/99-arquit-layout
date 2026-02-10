@@ -94,12 +94,12 @@ Plans:
   5. Site is deployed to Vercel with custom domain and technical SEO implemented
   6. All placeholder content replaced with final PT-BR copy and project photography
 
-**Plans**: TBD
+**Plans**: 3 plans in 2 waves
 
 Plans:
-- [ ] 04-01: TBD
-- [ ] 04-02: TBD
-- [ ] 04-03: TBD
+- [ ] 04-01-PLAN.md — Conversion elements: WhatsApp floating button, contact form with honeypot anti-spam, social proof display
+- [ ] 04-02-PLAN.md — Performance validation: Lighthouse/PageSpeed testing, image optimization with next/image, CLS prevention
+- [ ] 04-03-PLAN.md — Deployment to Vercel with custom domain, technical SEO (meta tags, sitemap, robots.txt), final content replacement
 
 ## Progress
 
@@ -111,4 +111,4 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4
 | 1. Design Foundation | 0/1 | Ready to execute | - |
 | 2. Core Sections | 0/0 | Not started | - |
 | 3. Portfolio | 0/2 | Ready to execute | - |
-| 4. Conversion & Launch | 0/0 | Not started | - |
+| 4. Conversion & Launch | 0/3 | Ready to execute | - |
