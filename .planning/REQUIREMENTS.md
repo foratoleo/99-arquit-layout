@@ -39,7 +39,7 @@ Requirements for initial release. Each maps to roadmap phases.
 
 - [ ] **PERF-01**: LCP < 2.5s on mobile and desktop
 - [ ] **PERF-02**: CLS < 0.1 on mobile and desktop
-- [ ] **PERF-03**: PageSpeed score ≥ 90 on both mobile and desktop
+- [ ] **PERF-03**: PageSpeed score >= 90 on both mobile and desktop
 - [ ] **PERF-04**: Mobile experience superior to desktop (primary traffic focus)
 
 ### Deployment
@@ -108,16 +108,16 @@ Which phases cover which requirements. Updated during roadmap creation.
 | CNV-02 | Phase 4 | Pending |
 | CNV-03 | Phase 4 | Pending |
 | CNV-04 | Phase 4 | Pending |
-| PERF-01 | Phase 5 | Pending |
-| PERF-02 | Phase 5 | Pending |
-| PERF-03 | Phase 5 | Pending |
-| PERF-04 | Phase 5 | Pending |
-| DEPL-01 | Phase 6 | Pending |
-| DEPL-02 | Phase 6 | Pending |
-| DEPL-03 | Phase 6 | Pending |
-| CNT-01 | Phase 7 | Pending |
-| CNT-02 | Phase 7 | Pending |
-| CNT-03 | Phase 7 | Pending |
+| PERF-01 | Phase 4 | Pending |
+| PERF-02 | Phase 4 | Pending |
+| PERF-03 | Phase 4 | Pending |
+| PERF-04 | Phase 4 | Pending |
+| DEPL-01 | Phase 4 | Pending |
+| DEPL-02 | Phase 4 | Pending |
+| DEPL-03 | Phase 4 | Pending |
+| CNT-01 | Phase 4 | Pending |
+| CNT-02 | Phase 4 | Pending |
+| CNT-03 | Phase 4 | Pending |
 
 **Coverage:**
 - v1 requirements: 24 total
@@ -126,4 +126,4 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 ---
 *Requirements defined: 2025-02-10*
-*Last updated: 2025-02-10 after initial definition*
+*Last updated: 2025-02-10 after roadmap creation*
