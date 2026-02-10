@@ -1,19 +1,37 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+/* Custom color palette - Quiet Luxury */
+@theme {
+  --color-sand-50: #FAF9F7;
+  --color-sand-100: #F5F3F0;
+  --color-sand-200: #EBE8E4;
+  --color-sand-300: #E0DCD7;
+
+  --color-greige-100: #D8D2C8;
+  --color-greige-200: #C8C2B8;
+  --color-greige-300: #B8B2A7;
+  --color-greige-400: #A8A296;
+  --color-greige-500: #9B9590;
+  --color-greige-600: #8C8680;
+  --color-greige-700: #7A7470;
+  --color-greige-800: #686260;
+
+  --color-black-400: #1A1A1A;
+  --color-black-500: #111111;
+  --color-black-600: #000000;
+
+  --font-family-serif: 'Playfair Display', Georgia, serif;
+}
 
 @layer base {
-  :root {
-    --font-playfair: 'Playfair Display', serif;
-  }
-
   html {
     scroll-behavior: smooth;
   }
 
   body {
-    @apply bg-sand-50 text-gray-900;
-    font-family: var(--font-playfair);
+    background-color: var(--color-sand-50);
+    color: var(--color-black-400);
+    font-family: var(--font-family-serif);
   }
 }
 
